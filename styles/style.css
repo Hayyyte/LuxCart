@@ -1,0 +1,34 @@
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::before,
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  background-color: currentColor;
+  transition: width 0.35s;
+}
+
+/* Initial styles */
+.hover-underline::before {
+  width: 0;
+  left: 0;
+  transition-delay: 0.25s;
+}
+
+.hover-underline::after {
+  width: 100%;
+  right: 0;
+}
+
+/* Hover styles */
+.hover-underline:hover::before {
+  width: 100%;
+}
+
+.hover-underline:hover::after {
+  width: 0;
+}

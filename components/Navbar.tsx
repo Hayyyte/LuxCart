@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import '@/styles/style.css';
 
 const Navbar = () => {
     return (
@@ -15,52 +16,52 @@ const Navbar = () => {
                 <ul className="flex flex-row justify-between align-middle">
                     <li className="m-3">
                         <Link href="/gifts">
-                            <p>Gifts</p>
+                            <p className="hover-underline">Gifts</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/new">
-                            <p>New</p>
+                            <p className="hover-underline">New</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/women">
-                        <p>Women</p>
+                        <p className="hover-underline">Women</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/men">
-                        <p>Men</p>
+                        <p className="hover-underline">Men</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/jewelry">
-                        <p>Jewelry</p>
+                        <p className="hover-underline">Jewelry</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/watches">
-                        <p>Watches</p>
+                        <p className="hover-underline">Watches</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/perfumes">
-                        <p>Perfumes</p>
+                        <p className="hover-underline">Perfumes</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/makeup">
-                        <p>Makeup</p>
+                        <p className="hover-underline">Makeup</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/services">
-                        <p>Services</p>
+                        <p className="hover-underline">Services</p>
                         </Link>
                     </li>
                     <li className="m-3">
                         <Link href="/luxe-queendom">
-                        <p>Luxe Queendom</p>
+                        <p className="hover-underline">Luxe Queendom</p>
                         </Link>
                     </li>
                 </ul>
