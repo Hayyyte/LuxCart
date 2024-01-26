@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
-
   export default function Home() {
     return (
-      <div>
-        <h1 className="text-3xl font-bold underline">Home</h1>
-        <Button>Click me</Button>
-      </div>
+      <main className="flex-center mx-auto w-full max-w-screen-2xl flex-col">
+        <section className="w-full">
+          <div>
+            <h1>Home</h1>
+          </div>
+        </section>
+      </main>
     )
   }

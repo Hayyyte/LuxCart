@@ -1,9 +1,12 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 const Loayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <>
-            {/* Navbar */}
+            <Navbar></Navbar>    
             {children}
-            {/* Footer */}
+            <Footer></Footer>
         </>
     );
 }
