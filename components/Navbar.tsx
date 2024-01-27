@@ -2,70 +2,109 @@ import Link from "next/link";
 import Image from "next/image";
 import '@/styles/style.css';
 
+import {
+    Sheet,
+    SheetContent,
+    SheetTrigger,
+  } from "@/components/ui/sheet"
+import { Button } from "./ui/button";
+
 const Navbar = () => {
     return (
-        <nav className="flex-center fixed top-0 w-full border-b-2 border-black-200 py-7 text-black">
-            <div className="flex justify-between flex-row mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
-                {/* Logo */}
-                <Link href="/">
-                    <Image src='/next.svg' alt='Logo' width={50} height={50} className='cursor-pointer'></Image>
-                </Link>
-                {/* Hamburger */}
-                <Image src='/hamburger-menu.svg' alt='Hamburger Menu' width={50} height={50} className='cursor-pointer block md:hidden'></Image>
-                {/* Nav Items */}
-                <ul className="flex flex-row justify-between align-middle">
-                    <li className="m-3">
-                        <Link href="/gifts">
-                            <p className="hover-underline">Gifts</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/new">
-                            <p className="hover-underline">New</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/women">
-                        <p className="hover-underline">Women</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/men">
-                        <p className="hover-underline">Men</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/jewelry">
-                        <p className="hover-underline">Jewelry</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/watches">
-                        <p className="hover-underline">Watches</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/perfumes">
-                        <p className="hover-underline">Perfumes</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/makeup">
-                        <p className="hover-underline">Makeup</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/services">
-                        <p className="hover-underline">Services</p>
-                        </Link>
-                    </li>
-                    <li className="m-3">
-                        <Link href="/luxe-queendom">
-                        <p className="hover-underline">Luxe Queendom</p>
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+        <nav className="flex flex-row justify-around w-full text-center fixed top-0 border-b-2 text-black border-black-200 py-7">
+            <Sheet>
+                <SheetTrigger>
+                    <Button>Menu</Button>
+                </SheetTrigger>
+                <SheetContent side='left'>
+                    <SheetTrigger className="mx-5 p-3 text-xl">
+                        × Close
+                    </SheetTrigger>
+                    <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/gifts">
+                                    <p>
+                                        <span className="hover-underline">Gifts</span>
+                                    </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/new">
+                                    <p>
+                                        <span className="hover-underline">New</span>
+                                    </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/women">
+                                <p>
+                                    <span className="hover-underline">Women</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/men">
+                                <p>
+                                    <span className="hover-underline">Men</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/jewelry">
+                                <p>
+                                    <span className="hover-underline">Jewelry</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/watches">
+                                <p>
+                                    <span className="hover-underline">Watches</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/perfumes">
+                                <p>
+                                    <span className="hover-underline">Perfumes</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/makeup">
+                                <p>
+                                    <span className="hover-underline">Makeup</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/services">
+                                <p>
+                                    <span className="hover-underline">Services</span>
+                                </p>
+                            </Link>
+                        </li>
+                        <li className="max-w-min group-hover:text-gray-500 text-black">
+                            <Link href="/lux">
+                                <p>
+                                    <span className="hover-underline">Lux</span>
+                                </p>
+                            </Link>
+                        </li>
+                    </ul>
+                </SheetContent>
+            </Sheet>
+
+            {/* Search */}
+
+            {/* Logo */}
+            <Link href="/">
+                <Image src='/lux-cart-logo.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
+            </Link>
+            {/* Account */}
+            <div><p>Account</p></div>
+            {/* Cart */}
+            <div><p>Cart</p></div> 
         </nav>
     );
 }

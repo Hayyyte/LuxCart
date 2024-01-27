@@ -32,3 +32,7 @@
 .hover-underline:hover::after {
   width: 0;
 }
+
+.hover-underline:hover {
+  color: black;
+}

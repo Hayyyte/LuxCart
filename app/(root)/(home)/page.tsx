@@ -5,6 +5,55 @@ export default function Home() {
     <main className="flex-center mx-auto w-full max-w-screen-2xl flex-col">
       <section>
           <h1>Home</h1>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
       </section>
     </main>
   )

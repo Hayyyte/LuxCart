@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Luxe Cart",
-  description: "Elevate Your Style, Shop Luxe with Pride.",
+  title: "Lux Cart",
+  description: "Elevate Your Style, Shop Lux with Pride.",
 };
 
 export default function RootLayout({

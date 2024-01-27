@@ -1,6 +1,57 @@
 const Jewelry = () => {
     return (
+        <main> 
         <h1>Jewelry</h1>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+    </main>
     );
 }
  

@@ -1,6 +1,57 @@
 const Account = () => {
     return (
+        <main> 
             <h1>Account</h1>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+        </main>
     );
 }
  
