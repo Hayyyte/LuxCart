@@ -36,3 +36,8 @@
 .hover-underline:hover {
   color: black;
 }
+
+/* Mouse Trail */
+.mouse-trail {
+  z-index: 100;
+}
