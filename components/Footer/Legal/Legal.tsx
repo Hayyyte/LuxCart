@@ -23,6 +23,9 @@ const Legal = () => {
                         </p>
                     </Link>
                 </li>
+                <li>
+                    <p>© 2024 LUX. All rights reserved.</p>
+                </li>
             </ul>
         </div>
     );

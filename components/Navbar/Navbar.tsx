@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import '@/styles/style.css';
-
 import {
     Sheet,
     SheetContent,
     SheetTrigger,
     SheetTitle,
   } from "@/components/ui/sheet"
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
     return (
@@ -143,16 +142,16 @@ const Navbar = () => {
                 </SheetContent>
             </Sheet>
 
-            {/* Search */}
-
             {/* Logo */}
-            <Link href="/">
-                <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
-            </Link>
-            {/* Account */}
-            <div><p>Account</p></div>
-            {/* Cart */}
-            <div><p>Cart</p></div> 
+                <Link href="/">
+                    <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
+                </Link>
+            <div className="flex flex-row gap-x-10">
+                {/* Account */}
+                <div><p>Account</p></div>
+                {/* Cart */}
+                <div><p>Cart</p></div> 
+            </div>
         </nav>
     );
 }

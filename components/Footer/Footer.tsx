@@ -12,7 +12,6 @@ const Footer = () => {
             <Company></Company>
             <Services></Services>
             <Legal></Legal>
-            <p>© 2024 LUX. All rights reserved.</p>
         </footer>
     );
 }
