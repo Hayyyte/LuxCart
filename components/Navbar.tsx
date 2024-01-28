@@ -6,28 +6,76 @@ import {
     Sheet,
     SheetContent,
     SheetTrigger,
+    SheetTitle,
   } from "@/components/ui/sheet"
 import { Button } from "./ui/button";
 
 const Navbar = () => {
     return (
-        <nav className="flex flex-row justify-around w-full text-center fixed top-0 border-b-2 text-black border-black-200 py-7">
+        <nav className="flex flex-row justify-around w-full text-center border-b-2 text-black border-black-200 py-7">
+            {/* Menu */}
             <Sheet>
+                {/* Menu Open */}
                 <SheetTrigger>
                     <Button>Menu</Button>
                 </SheetTrigger>
+
                 <SheetContent side='left'>
+                    {/* Menu Close */}
                     <SheetTrigger className="mx-5 p-3 text-xl">
                         × Close
                     </SheetTrigger>
+
                     <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/gifts">
+                        {/* Gift Menu */}
+                        <Sheet>
+                            {/* Gift Menu Open */}
+                            <SheetTrigger>
+                                <li className="max-w-min group-hover:text-gray-500 text-black">
                                     <p>
                                         <span className="hover-underline">Gifts</span>
                                     </p>
-                            </Link>
-                        </li>
+                                </li>
+                            </SheetTrigger>
+                            <SheetContent side="left">
+                                <SheetTrigger className="mx-5 p-3 text-xl">
+                                    ← Back
+                                </SheetTrigger>
+                                <SheetTitle>
+                                    <Link href="/gifts">
+                                        <ul className="max-w-min group-hover:text-gray-500 text-black">
+                                            <li>
+                                                <span className="hover-underline">Gifts</span>
+                                            </li>
+                                        </ul>
+                                    </Link>
+                                </SheetTitle>
+                                <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
+                                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                                        <Link href="/gifts/for-her">
+                                            <p>
+                                                <span className="hover-underline">For Her</span>
+                                            </p>
+                                        </Link>
+                                    </li>
+                                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                                        <Link href="/gifts/for-him">
+                                            <p>
+                                                <span className="hover-underline">For Him</span>
+                                            </p>
+                                        </Link>
+                                    </li>
+                                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                                        <Link href="/gifts/holiday">
+                                            <p>
+                                                <span className="hover-underline">Holiday</span>
+                                            </p>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </SheetContent>
+                        </Sheet>
+
                         <li className="max-w-min group-hover:text-gray-500 text-black">
                             <Link href="/new">
                                     <p>
@@ -99,7 +147,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <Link href="/">
-                <Image src='/lux-cart-logo.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
+                <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
             </Link>
             {/* Account */}
             <div><p>Account</p></div>
