@@ -1,8 +1,7 @@
-const New = () => {
+const ForHim = () => {
     return (
-        <main>
-            <h1>New</h1>
-            <div>.</div>
+        <main> 
+        <h1>ForHim</h1>
         <div>.</div>
         <div>.</div>
         <div>.</div>
@@ -51,8 +50,9 @@ const New = () => {
         <div>.</div>
         <div>.</div>
         <div>.</div>
-        </main>
+        <div>.</div>
+    </main>
     );
 }
  
-export default New;
+export default ForHim;
