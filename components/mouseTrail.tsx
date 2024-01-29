@@ -24,7 +24,7 @@ const MouseTrail = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-5 h-5 bg-gray-500 rounded-full pointer-events-none mouse-trail"></div>
+      <div className="fixed top-0 left-0 w-7 h-7 bg-black rounded-full pointer-events-none mouse-trail"></div>
     </>
   );
 }
