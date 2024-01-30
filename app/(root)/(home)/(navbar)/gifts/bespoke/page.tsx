@@ -1,7 +1,7 @@
-const ForChildren = () => {
+const Bespoke = () => {
     return (
         <main> 
-        <h1>ForChildren</h1>
+        <h1>Bespoke</h1>
         <div>.</div>
         <div>.</div>
         <div>.</div>
@@ -55,4 +55,4 @@ const ForChildren = () => {
     );
 }
  
-export default ForChildren;
+export default Bespoke;

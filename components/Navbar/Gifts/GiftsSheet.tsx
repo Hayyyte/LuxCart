@@ -11,10 +11,13 @@ const GiftsSheet = () => {
                     </p>
                 </li>
             </SheetTrigger>
+
             <SheetContent side="left">
+
                 <SheetClose className="mx-5 p-3 text-xl">
                     ← Back
                 </SheetClose>
+
                 <SheetTitle>
                     <Link href="/gifts">
                         <SheetClose>
@@ -24,9 +27,40 @@ const GiftsSheet = () => {
                                     </li>
                             </ul>
                         </SheetClose>
-                        </Link>
+                    </Link>
                 </SheetTitle>
                 <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/bespoke">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Bespoke Gifts</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/designer-sets">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Designer Gift Sets</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/opulent-gadgets">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Opulent Gadgets</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
                     <li className="max-w-max group-hover:text-gray-500 text-black">
                         <Link href="/gifts/for-her">
                             <SheetClose>
@@ -36,6 +70,7 @@ const GiftsSheet = () => {
                             </SheetClose>
                         </Link>
                     </li>
+
                     <li className="max-w-max group-hover:text-gray-500 text-black">
                         <Link href="/gifts/for-him">
                             <SheetClose>
@@ -45,33 +80,7 @@ const GiftsSheet = () => {
                             </SheetClose>
                         </Link>
                     </li>
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/for-children">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">For Children</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/custom">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">Custom</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/holiday">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">Holiday</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
+                    
                 </ul>
             </SheetContent>
         </Sheet>

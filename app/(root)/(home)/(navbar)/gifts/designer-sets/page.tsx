@@ -1,7 +1,7 @@
-const Custom = () => {
+const DesignerSets = () => {
     return (
         <main> 
-        <h1>Custom</h1>
+        <h1>DesignerSets</h1>
         <div>.</div>
         <div>.</div>
         <div>.</div>
@@ -55,4 +55,4 @@ const Custom = () => {
     );
 }
  
-export default Custom;
+export default DesignerSets;

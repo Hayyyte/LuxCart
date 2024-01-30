@@ -22,19 +22,17 @@ import LuxSheet from "./Lux/LuxSheet";
 const Navbar = () => {
     return (
         <nav className="flex flex-row justify-around w-full text-center border-b-2 text-black border-black-200 py-7">
-            {/* Menu */}
             <Sheet>
-                {/* Menu Open */}
+                {/* Menu Button */}
                 <SheetTrigger>
                     <Button>Menu</Button>
                 </SheetTrigger>
 
                 <SheetContent side='left'>
-                    {/* Menu Close */}
                     <SheetTrigger className="mx-5 p-3 text-xl">
                         × Close
                     </SheetTrigger>
-
+                    {/* Menu Items */}
                     <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
                         <GiftsSheet />
                         <NewSheet />

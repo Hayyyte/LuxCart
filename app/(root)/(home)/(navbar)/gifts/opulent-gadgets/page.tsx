@@ -1,7 +1,7 @@
-const Holiday = () => {
+const OpulentGadgets = () => {
     return (
         <main> 
-        <h1>Holiday</h1>
+        <h1>OpulentGadgets</h1>
         <div>.</div>
         <div>.</div>
         <div>.</div>
@@ -55,4 +55,4 @@ const Holiday = () => {
     );
 }
  
-export default Holiday;
+export default OpulentGadgets;
