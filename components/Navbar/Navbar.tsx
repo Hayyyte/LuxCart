@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import "@/public/hamburger-menu.svg";
 import '@/styles/style.css';
 import {
     Sheet,
     SheetContent,
     SheetTrigger,
-    SheetTitle,
   } from "@/components/ui/sheet"
 import { Button } from "../ui/button";
 import NewSheet from "./New/NewSheet";
@@ -21,11 +21,11 @@ import LuxSheet from "./Lux/LuxSheet";
 
 const Navbar = () => {
     return (
-        <nav className="flex flex-row justify-around w-full text-center border-b-2 text-black border-black-200 py-7">
+        <nav className="flex flex-row justify-around content-center w-full text-center border-b-2 text-black border-black-200 py-7">
             <Sheet>
                 {/* Menu Button */}
                 <SheetTrigger>
-                    <Button>Menu</Button>
+                    <Image src='/hamburger-menu.svg' alt='Menu' width={50} height={50} className="hover:scale-125 transition-transform duration-200"/>
                 </SheetTrigger>
 
                 <SheetContent side='left'>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
             {/* Logo */}
                 <Link href="/">
-                    <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer'></Image>
+                    <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer text-center inline-block' />
                 </Link>
             <div className="flex flex-row gap-x-10">
                 {/* Account */}
