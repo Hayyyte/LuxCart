@@ -10,6 +10,14 @@ import {
 import { Button } from "../ui/button";
 import NewSheet from "./New/NewSheet";
 import GiftsSheet from "./Gifts/GiftsSheet";
+import WomenSheet from "./Women/WomenSheet";
+import MenSheet from "./Men/MenSheet";
+import JewelrySheet from "./Jewelry/JewelrySheet";
+import WatchesSheet from "./Watches/WatchesSheet";
+import PerfumesSheet from "./Perfumes/PerfumesSheet";
+import MakeupSheet from "./Makeup/MakeupSheet";
+import ServicesSheet from "./Services/ServicesSheet";
+import LuxSheet from "./Lux/LuxSheet";
 
 const Navbar = () => {
     return (
@@ -28,65 +36,16 @@ const Navbar = () => {
                     </SheetTrigger>
 
                     <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
-                        {/* Gift Menu */}
-                        <GiftsSheet/>
+                        <GiftsSheet />
                         <NewSheet />
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/women">
-                                <p>
-                                    <span className="hover-underline">Women</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/men">
-                                <p>
-                                    <span className="hover-underline">Men</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/jewelry">
-                                <p>
-                                    <span className="hover-underline">Jewelry</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/watches">
-                                <p>
-                                    <span className="hover-underline">Watches</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/perfumes">
-                                <p>
-                                    <span className="hover-underline">Perfumes</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/makeup">
-                                <p>
-                                    <span className="hover-underline">Makeup</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/services">
-                                <p>
-                                    <span className="hover-underline">Services</span>
-                                </p>
-                            </Link>
-                        </li>
-                        <li className="max-w-min group-hover:text-gray-500 text-black">
-                            <Link href="/lux">
-                                <p>
-                                    <span className="hover-underline">Lux</span>
-                                </p>
-                            </Link>
-                        </li>
+                        <WomenSheet />
+                        <MenSheet />
+                        <JewelrySheet />
+                        <WatchesSheet />
+                        <PerfumesSheet />
+                        <MakeupSheet />
+                        <ServicesSheet />
+                        <LuxSheet />
                     </ul>
                 </SheetContent>
             </Sheet>

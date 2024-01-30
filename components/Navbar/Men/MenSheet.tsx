@@ -1,13 +1,13 @@
 import { Sheet, SheetTrigger, SheetContent, SheetTitle, SheetClose } from "@/components/ui/sheet";
 import Link from "next/link";
 
-const GiftsSheet = () => {
+const MenSheet = () => {
     return (
         <Sheet>
             <SheetTrigger>
                 <li className="max-w-min group-hover:text-gray-500 text-black">
                     <p>
-                        <span className="hover-underline">Gifts</span>
+                        <span className="hover-underline">Men</span>
                     </p>
                 </li>
             </SheetTrigger>
@@ -16,11 +16,11 @@ const GiftsSheet = () => {
                     ← Back
                 </SheetClose>
                 <SheetTitle>
-                    <Link href="/gifts">
+                    <Link href="/men">
                         <SheetClose>
                             <ul className="max-w-min mx-8 group-hover:text-gray-500 text-black">
                                     <li>
-                                        <span className="hover-underline">Gifts</span>
+                                        <span className="hover-underline">Men</span>
                                     </li>
                             </ul>
                         </SheetClose>
@@ -78,4 +78,4 @@ const GiftsSheet = () => {
     );
 }
  
-export default GiftsSheet;
+export default MenSheet;

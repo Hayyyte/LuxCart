@@ -1,0 +1,58 @@
+const Custom = () => {
+    return (
+        <main> 
+        <h1>Custom</h1>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+        <div>.</div>
+    </main>
+    );
+}
+ 
+export default Custom;
