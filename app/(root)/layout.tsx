@@ -4,12 +4,12 @@ import MouseTrail from "@/components/mouseTrail";
 
 const Loayout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <MouseTrail></MouseTrail>
             <Navbar></Navbar>    
             {children}
             <Footer></Footer>
-        </>
+        </div>
     );
 }
  

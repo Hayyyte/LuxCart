@@ -32,36 +32,6 @@ const GiftsSheet = () => {
                 <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
 
                     <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/bespoke">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">Bespoke Gifts</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
-
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/designer-sets">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">Designer Gift Sets</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
-
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
-                        <Link href="/gifts/opulent-gadgets">
-                            <SheetClose>
-                                <p>
-                                    <span className="hover-underline">Opulent Gadgets</span>
-                                </p>
-                            </SheetClose>
-                        </Link>
-                    </li>
-
-                    <li className="max-w-max group-hover:text-gray-500 text-black">
                         <Link href="/gifts/for-her">
                             <SheetClose>
                                 <p>
@@ -76,6 +46,36 @@ const GiftsSheet = () => {
                             <SheetClose>
                                 <p>
                                     <span className="hover-underline">For Him</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/bespoke">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Bespoke Gifts</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/designer-sets">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Designer Sets</span>
+                                </p>
+                            </SheetClose>
+                        </Link>
+                    </li>
+
+                    <li className="max-w-max group-hover:text-gray-500 text-black">
+                        <Link href="/gifts/opulent-gadgets">
+                            <SheetClose>
+                                <p>
+                                    <span className="hover-underline">Opulent Gadgets</span>
                                 </p>
                             </SheetClose>
                         </Link>
