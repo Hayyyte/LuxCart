@@ -4,8 +4,10 @@ import Image from "next/image";
 const Gifts = () => {
     return (
         <main> 
-            <h1>Gifts</h1>
             <div className="flex flex-col justify-center gap-9">
+                <div className="flex bg-black items-center justify-center h-screen w-full cursor-default">
+                    <h1 className="text-5xl text-white">Gifts</h1>
+                </div>
                 <div className="hover:scale-105 transition-transform duration-300 brightness-75 hover:brightness-105 relative">
                     <Link href="/gifts/bespoke">
                         <h2 className="absolute text-6xl text-white top-12 left-12 bg-black h-32 w-64 bg-opacity-50">Bespoke Gifts</h2>
