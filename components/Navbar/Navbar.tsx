@@ -6,8 +6,7 @@ import {
     Sheet,
     SheetContent,
     SheetTrigger,
-  } from "@/components/ui/sheet"
-import { Button } from "../ui/button";
+  } from "@/components/ui/sheet";
 import NewSheet from "./New/NewSheet";
 import GiftsSheet from "./Gifts/GiftsSheet";
 import WomenSheet from "./Women/WomenSheet";
@@ -18,6 +17,7 @@ import PerfumesSheet from "./Perfumes/PerfumesSheet";
 import MakeupSheet from "./Makeup/MakeupSheet";
 import ServicesSheet from "./Services/ServicesSheet";
 import LuxSheet from "./Lux/LuxSheet";
+import { Input } from "../ui/input";
 
 const Navbar = () => {
     return (
@@ -53,6 +53,8 @@ const Navbar = () => {
                     <Image src='/lux-text.svg' alt='Logo' width={100} height={100} className='cursor-pointer text-center inline-block' />
                 </Link>
             <div className="flex flex-row gap-x-10">
+                {/* Search */}
+                <Input type="text" placeholder="Search"/>
                 {/* Account */}
                 <div><p>Account</p></div>
                 {/* Cart */}
