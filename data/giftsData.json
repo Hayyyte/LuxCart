@@ -6,7 +6,7 @@
         "description": "Indulge in the epitome of sartorial elegance with a bespoke suit crafted to perfection. Choose the finest fabrics and impeccable details for a suit that reflects your unique style.",
         "price": "$5000",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:fabric", "gender:men", "type:bespoke"],
-        "url": "custom-tailored-suit",
+        "url": "bespoke/custom-tailored-suit",
         "image": "custom_tailored_suit.png"
       },
       {
@@ -15,7 +15,7 @@
         "description": "Experience the luxury of a one-of-a-kind leather bag meticulously crafted by skilled artisans. Personalize the design, color, and monogram for a truly unique accessory.",
         "price": "$2500",
         "tags": ["category:accessory", "size:medium", "color:custom", "material:leather", "gender:women", "type:bespoke"],
-        "url": "handcrafted-leather-bag",
+        "url": "bespoke/handcrafted-leather-bag",
         "image": "handcrafted_leather_bag.png"
       },
       {
@@ -24,7 +24,7 @@
         "description": "Wrap yourself in opulence with a silk robe featuring intricate embroidery. Customize the design and monogram to add a touch of glamour to your loungewear.",
         "price": "$1200",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:silk", "gender:women", "type:bespoke"],
-        "url": "custom-embroidered-silk-robe",
+        "url": "bespoke/custom-embroidered-silk-robe",
         "image": "custom_embroidered_silk_robe.png"
       },
       {
@@ -33,7 +33,7 @@
         "description": "Elevate your winter wardrobe with a bespoke cashmere sweater. Choose from a palette of colors and patterns to create a cozy masterpiece that exudes sophistication.",
         "price": "$800",
         "tags": ["category:clothing", "size:custom", "color:various", "material:cashmere", "gender:unisex", "type:bespoke"],
-        "url": "artisanal-cashmere-sweater",
+        "url": "bespoke/artisanal-cashmere-sweater",
         "image": "artisanal_cashmere_sweater.png"
       },
       {
@@ -42,7 +42,7 @@
         "description": "Add a touch of refinement to any outfit with a silk scarf featuring your personalized monogram. Select from a range of colors and patterns to complement your style.",
         "price": "$300",
         "tags": ["category:accessory", "size:one-size", "color:custom", "material:silk", "gender:unisex", "type:bespoke"],
-        "url": "custom-monogrammed-silk-scarf",
+        "url": "bespoke/custom-monogrammed-silk-scarf",
         "image": "custom_monogrammed_silk_scarf.png"
       },
       {
@@ -51,7 +51,7 @@
         "description": "Adorn yourself with a bespoke diamond jewelry set designed exclusively for you. Select the diamonds, metals, and overall design to create a timeless and unique masterpiece.",
         "price": "$15000",
         "tags": ["category:jewelry", "size:custom", "color:custom", "material:diamond", "gender:women", "type:bespoke"],
-        "url": "bespoke-diamond-jewelry-set",
+        "url": "bespoke/bespoke-diamond-jewelry-set",
         "image": "bespoke_diamond_jewelry_set.png"
       },
       {
@@ -60,7 +60,7 @@
         "description": "Make a statement at any event with a bespoke tuxedo dress tailored to perfection. Choose the fabric, silhouette, and embellishments for a show-stopping ensemble.",
         "price": "$4500",
         "tags": ["category:clothing", "size:custom", "color:various", "material:fabric", "gender:women", "type:bespoke"],
-        "url": "tailored-tuxedo-dress",
+        "url": "bespoke/tailored-tuxedo-dress",
         "image": "tailored_tuxedo_dress.png"
       },
       {
@@ -69,7 +69,7 @@
         "description": "Step into luxury with custom embellished sneakers crafted with attention to detail. Personalize the colors, materials, and embellishments for a unique and stylish footwear option.",
         "price": "$600",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:leather", "gender:unisex", "type:bespoke"],
-        "url": "custom-embellished-sneakers",
+        "url": "bespoke/custom-embellished-sneakers",
         "image": "custom_embellished_sneakers.png"
       },
       {
@@ -78,7 +78,7 @@
         "description": "Dazzle at special occasions in a bespoke velvet evening gown. Customize the silhouette, neckline, and embellishments to create a gown that captures the essence of luxury.",
         "price": "$7500",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:velvet", "gender:women", "type:bespoke"],
-        "url": "exquisite-velvet-evening-gown",
+        "url": "bespoke/exquisite-velvet-evening-gown",
         "image": "exquisite_velvet_evening_gown.png"
       }
     ]

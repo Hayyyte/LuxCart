@@ -1,5 +1,5 @@
 import Filters from "@/components/Filters";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import ItemCard from "@/components/itemCard";
 import { Input } from "@/components/ui/input";
 import giftsData from "@/data/giftsData.json";
 
@@ -12,18 +12,10 @@ const Bespoke = () => {
                 <Input type="text" placeholder="Search"/>
             </div>
             <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {/* Enters giftsData, but only for 'bespoke' */}
+                {/* Maps through the 'bespoke' array and renders ItemCard for each gift */}
                 {giftsData.bespoke.map((gift) => (
-                    <Card key={gift.id} className="cursor-pointer min-w-[200px] user-select-none hover:scale-105 transition-transform duration-300">
-                        <CardHeader>
-                            <CardTitle>{gift.name}</CardTitle>
-                            <CardDescription>{gift.description}</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>Price: {gift.price}</p>
-                            {/* <p>Tags: {gift.tags.join(', ')}</p> */}
-                            <img src={gift.image} alt={gift.name} height={150} width={150} />
-                        </CardContent>
-                    </Card>
+                    <ItemCard key={gift.id} gift={gift} />
                     ))}
             </div>
         </main>
