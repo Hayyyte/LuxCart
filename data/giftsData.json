@@ -81,6 +81,16 @@
         "url": "bespoke/exquisite-velvet-evening-gown",
         "image": "exquisite_velvet_evening_gown.png"
       }
-    ]
+    ],
+    "men": [
+      {
+        "id": 1,
+        "name": "Handsome Suit",
+        "description": "Indulge in the epitome of sartorial elegance with a bespoke suit crafted to perfection. Choose the finest fabrics and impeccable details for a suit that reflects your unique style.",
+        "price": "$5000",
+        "tags": ["category:clothing", "size:medium", "color:blue", "material:fabric", "gender:men", "type:men"],
+        "url": "men/handsome-suit",
+        "image": "custom_tailored_suit.png"
+      }]
   }
   
