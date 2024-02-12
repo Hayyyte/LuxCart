@@ -1,8 +1,10 @@
+import UrlTitle from "@/components/urlTitle";
+
 const DynamicBespoke = () => {
     return (
-        <>
-            <p>Bespoke</p>
-        </>
+        <main>
+            <UrlTitle />
+        </main>
     );
 }
  
