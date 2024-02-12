@@ -1,7 +1,9 @@
+import UrlTitle from "@/components/urlTitle";
+
 const DesignerSets = () => {
     return (
         <main> 
-        <h1>DesignerSets</h1>
+        <UrlTitle />
         <div>.</div>
         <div>.</div>
         <div>.</div>

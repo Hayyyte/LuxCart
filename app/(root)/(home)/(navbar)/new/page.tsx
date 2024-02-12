@@ -1,56 +1,58 @@
+import UrlTitle from "@/components/urlTitle";
+
 const New = () => {
     return (
         <main>
-            <h1>New</h1>
+            <UrlTitle />
             <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
         </main>
     );
 }

@@ -1,6 +1,8 @@
+import UrlTitle from "@/components/urlTitle";
+
 const Men = () => {
     return (
-        <h1>Men</h1>
+        <UrlTitle />
     );
 }
  

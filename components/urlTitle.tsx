@@ -8,9 +8,9 @@ const UrlTitle = () => {
     const urlName = urlSegments[urlSegments.length - 1];
     const pageName = urlName.split('-').join(' ');
     const titleCase = pageName.split(' ').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    
+
     return (
-        <h1>{titleCase}</h1>
+        <h1 className='text-3xl'>{titleCase}</h1>
     );
 }
  

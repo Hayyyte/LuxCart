@@ -1,6 +1,8 @@
+import UrlTitle from "@/components/urlTitle";
+
 const Watches = () => {
     return (
-        <h1>Watches</h1>
+        <UrlTitle />
     );
 }
  

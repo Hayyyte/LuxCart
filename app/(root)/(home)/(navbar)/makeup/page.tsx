@@ -1,7 +1,9 @@
+import UrlTitle from "@/components/urlTitle";
+
 const Makeup = () => {
     return (
         <main> 
-            <h1>Makeup</h1>
+            <UrlTitle />
             <div>.</div>
             <div>.</div>
             <div>.</div>

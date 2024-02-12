@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import UrlTitle from "@/components/urlTitle";
 
 const Gifts = () => {
     return (
         <main> 
             <div className="flex flex-col justify-center gap-9 my-4">
-                <div className="flex bg-black items-center justify-center h-screen w-full cursor-default">
-                    <h1 className="text-5xl text-white">Gifts</h1>
-                </div>
+                <UrlTitle />
 
                 <div className="relative brightness-75 hover:brightness-105 hover:scale-105 transition-transform duration-300">
                     <Link href="/gifts/bespoke">

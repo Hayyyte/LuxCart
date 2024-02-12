@@ -1,7 +1,9 @@
+import UrlTitle from "@/components/urlTitle";
+
 const Account = () => {
     return (
         <main> 
-            <h1>Account</h1>
+            <UrlTitle />
             <div>.</div>
             <div>.</div>
             <div>.</div>

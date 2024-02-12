@@ -1,12 +1,13 @@
 import Filters from "@/components/Filters";
 import ItemCard from "@/components/itemCard";
 import { Input } from "@/components/ui/input";
+import UrlTitle from "@/components/urlTitle";
 import giftsData from "@/data/giftsData.json";
 
 const Bespoke = () => {
     return (
         <main className="flex flex-col m-6 gap-6 lg:mx-32 xl:mx-64 2xl:mx-96"> 
-            <h1>Bespoke</h1>
+            <UrlTitle />
             <div className="flex gap-4">
                 <Filters />
                 <Input type="text" placeholder="Search"/>

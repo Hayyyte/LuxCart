@@ -1,6 +1,8 @@
+import UrlTitle from "@/components/urlTitle";
+
 const Perfumes = () => {
     return (
-        <h1>Perfumes</h1>
+        <UrlTitle />
     );
 }
  
