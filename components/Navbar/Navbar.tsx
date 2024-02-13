@@ -18,21 +18,20 @@ import PerfumesSheet from "./Perfumes/PerfumesSheet";
 import MakeupSheet from "./Makeup/MakeupSheet";
 import ServicesSheet from "./Services/ServicesSheet";
 import LuxSheet from "./Lux/LuxSheet";
+import NavbarV2 from "../Navbar-v2/Navbar-v2";
 
 const Navbar = () => {
     return (
         <nav className="grid grid-cols-3 w-full border-b-2 text-black border-black-200 py-7">
             <div className="flex justify-center">
-                <Sheet>
-                    {/* Menu Button */}
+
+                {/* <Sheet>
                     <SheetTrigger>
                         <Image src='/hamburger-menu.svg' alt='Menu' width={50} height={50} className="hover:scale-125 transition-transform duration-200"/>
                     </SheetTrigger>
+
                     <SheetContent side='left'>
-                        <SheetTrigger className="mx-5 p-3 text-xl">
-                            × Close
-                        </SheetTrigger>
-                        {/* Menu Items */}
+
                         <ul className="flex flex-col mx-5 text-3xl gap-y-5 p-3 group">
                             <GiftsSheet />
                             <NewSheet />
@@ -50,7 +49,17 @@ const Navbar = () => {
                             </ul>
                         </ul>
                     </SheetContent>
+                </Sheet> */}
+                {/* Navbar v2 */}
+                <Sheet>
+                    <SheetTrigger>
+                        <p className="hover-underline">Menu</p>
+                    </SheetTrigger>
+                    <SheetContent side='left' className="w-[400px]">
+                        <NavbarV2 />
+                    </SheetContent>
                 </Sheet>
+                <div>&nbsp;</div>
             </div>
             
             {/* Logo */}
