@@ -21,7 +21,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('Gifts') } onMouseLeave={handleMouseLeave}>
                     <Link href="/gifts">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Gifts</span>
+                            <span className='hover-underline menu-item'>Gifts</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -29,7 +29,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('New') } onMouseLeave={handleMouseLeave}>
                     <Link href="/new">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>New</span>
+                            <span className='hover-underline menu-item'>New</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -37,7 +37,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/women">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Women</span>
+                            <span className='hover-underline menu-item'>Women</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -45,7 +45,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/men">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Men</span>
+                            <span className='hover-underline menu-item'>Men</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -53,7 +53,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/jewelry">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Jewelry</span>
+                            <span className='hover-underline menu-item'>Jewelry</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -61,7 +61,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/watches">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Watches</span>
+                            <span className='hover-underline menu-item'>Watches</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -69,7 +69,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/perfumes">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Perfumes</span>
+                            <span className='hover-underline menu-item'>Perfumes</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -77,7 +77,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/makeup">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Makeup</span>
+                            <span className='hover-underline menu-item'>Makeup</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -85,7 +85,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
                     <Link href="/services">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Services</span>
+                            <span className='hover-underline menu-item'>Services</span>
                             <span>&gt;&nbsp;&nbsp;</span>
                         </div>
                     </Link>
@@ -93,7 +93,7 @@ const NavbarV2 = () => {
                 <li className='py-2' onMouseEnter={handleMouseLeave}>
                     <Link href="/">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Lux</span>
+                            <span className='hover-underline menu-item'>Lux</span>
                         </div>
                     </Link>
                 </li>
@@ -104,7 +104,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/for-her">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>For Her</span>
+                            <span className='hover-underline menu-item'>For Her</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -112,7 +112,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/for-him">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>For Him</span>
+                            <span className='hover-underline menu-item'>For Him</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -120,7 +120,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/bespoke">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Bespoke Gifts</span>
+                            <span className='hover-underline menu-item'>Bespoke Gifts</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -128,7 +128,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/designer-sets">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Designer Sets</span>
+                            <span className='hover-underline menu-item'>Designer Sets</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -136,7 +136,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/opulent-gadgets">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>Opulent Gadgets</span>
+                            <span className='hover-underline menu-item'>Opulent Gadgets</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -148,7 +148,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/new/for-her">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>For Her</span>
+                            <span className='hover-underline menu-item'>For Her</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -156,7 +156,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/new/for-him">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>For Him</span>
+                            <span className='hover-underline menu-item'>For Him</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -164,7 +164,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/new/essentials">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>New Essentials</span>
+                            <span className='hover-underline menu-item'>New Essentials</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
@@ -176,7 +176,7 @@ const NavbarV2 = () => {
                 <p className='w-full py-2'>
                     <Link href="/gifts/wip">
                         <div className='flex justify-between'>
-                            <span className='hover-underline'>WIP</span>
+                            <span className='hover-underline menu-item'>WIP</span>
                             <span>&nbsp;</span>
                         </div>
                     </Link>
