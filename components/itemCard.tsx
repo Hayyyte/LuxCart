@@ -1,6 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -15,7 +16,9 @@ const ItemCard: React.FC<{ gift: any }> = ({ gift }) => {
                     <CardContent>
                         <p>Price: {gift.price}</p>
                         {/* <p>Tags: {gift.tags.join(', ')}</p> */}
-                        <img src={gift.image} alt={gift.name} height={150} width={150} />
+                        <div className="flex justify-center items-center">
+                            <Image src={gift.image} alt={gift.name} height={150} width={300} />
+                        </div>
                     </CardContent>
                 </Link>
             </Card>

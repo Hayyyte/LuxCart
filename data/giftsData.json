@@ -7,7 +7,7 @@
         "price": "$5000",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:fabric", "gender:men", "type:bespoke"],
         "url": "bespoke/custom-tailored-suit",
-        "image": "custom_tailored_suit.png"
+        "image": "/gift_images/clothing.png"
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "price": "$2500",
         "tags": ["category:accessory", "size:medium", "color:custom", "material:leather", "gender:women", "type:bespoke"],
         "url": "bespoke/handcrafted-leather-bag",
-        "image": "handcrafted_leather_bag.png"
+        "image": "/gift_images/accessory.png"
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "price": "$1200",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:silk", "gender:women", "type:bespoke"],
         "url": "bespoke/custom-embroidered-silk-robe",
-        "image": "custom_embroidered_silk_robe.png"
+        "image": "/gift_images/clothing.png"
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "price": "$800",
         "tags": ["category:clothing", "size:custom", "color:various", "material:cashmere", "gender:unisex", "type:bespoke"],
         "url": "bespoke/artisanal-cashmere-sweater",
-        "image": "artisanal_cashmere_sweater.png"
+        "image": "/gift_images/clothing.png"
       },
       {
         "id": 5,
@@ -43,7 +43,7 @@
         "price": "$300",
         "tags": ["category:accessory", "size:one-size", "color:custom", "material:silk", "gender:unisex", "type:bespoke"],
         "url": "bespoke/custom-monogrammed-silk-scarf",
-        "image": "custom_monogrammed_silk_scarf.png"
+        "image": "/gift_images/accessory.png"
       },
       {
         "id": 6,
@@ -52,7 +52,7 @@
         "price": "$15000",
         "tags": ["category:jewelry", "size:custom", "color:custom", "material:diamond", "gender:women", "type:bespoke"],
         "url": "bespoke/bespoke-diamond-jewelry-set",
-        "image": "bespoke_diamond_jewelry_set.png"
+        "image": "/gift_images/jewelry.png"
       },
       {
         "id": 7,
@@ -61,7 +61,7 @@
         "price": "$4500",
         "tags": ["category:clothing", "size:custom", "color:various", "material:fabric", "gender:women", "type:bespoke"],
         "url": "bespoke/tailored-tuxedo-dress",
-        "image": "tailored_tuxedo_dress.png"
+        "image": "/gift_images/clothing.png"
       },
       {
         "id": 8,
@@ -70,7 +70,7 @@
         "price": "$600",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:leather", "gender:unisex", "type:bespoke"],
         "url": "bespoke/custom-embellished-sneakers",
-        "image": "custom_embellished_sneakers.png"
+        "image": "/gift_images/clothing.png"
       },
       {
         "id": 9,
@@ -79,7 +79,7 @@
         "price": "$7500",
         "tags": ["category:clothing", "size:custom", "color:custom", "material:velvet", "gender:women", "type:bespoke"],
         "url": "bespoke/exquisite-velvet-evening-gown",
-        "image": "exquisite_velvet_evening_gown.png"
+        "image": "/gift_images/clothing.png"
       }
     ],
     "men": [
@@ -90,7 +90,7 @@
         "price": "$5000",
         "tags": ["category:clothing", "size:medium", "color:blue", "material:fabric", "gender:men", "type:men"],
         "url": "men/handsome-suit",
-        "image": "custom_tailored_suit.png"
+        "image": "/gift_images/clothing.png"
       }]
   }
   

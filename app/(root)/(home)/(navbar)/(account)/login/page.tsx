@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import "@/public/login.png";
 
 const Login = () => {
     // Todo: Authenticate user
