@@ -5,7 +5,7 @@ import "@/public/login.png";
 const Login = () => {
     // Todo: Authenticate user
     return (
-        <main className="py-[20vh] px-[5vw] sm:px-[10vw] md:px-[30vw] lg:px-[35vw] h-full bg-[url('/login.png')] bg-center bg-cover">
+        <main className="py-[20vh] px-[5vw] sm:px-[10vw] md:px-[30vw] lg:px-[35vw] h-full bg-[url('/login.svg')] bg-center bg-cover">
             
             <div className="flex flex-col align-center justify-center text-center gap-4">
                 

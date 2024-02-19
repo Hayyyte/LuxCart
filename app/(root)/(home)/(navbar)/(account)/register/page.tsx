@@ -4,7 +4,7 @@ import Link from "next/link";
 const Register = () => {
     // Todo: Store user data on database
     return (
-        <main className="py-[15vh] px-[5vw] sm:px-[10vw] md:px-[30vw] lg:px-[35vw] h-full bg-[url('/login.png')] bg-center bg-cover">
+        <main className="py-[15vh] px-[5vw] sm:px-[10vw] md:px-[30vw] lg:px-[35vw] h-full bg-[url('/login.svg')] bg-center bg-cover">
             <div className="flex flex-col align-center justify-center text-center gap-4">
                 <h1 className="text-3xl">Register</h1>
                 <form className="flex flex-col border-2 rounded-lg gap-2 p-4 bg-gray-100 text-left" action="" >
