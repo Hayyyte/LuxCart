@@ -11,6 +11,8 @@ import {
 import NavbarV2 from "../Navbar-v2/Navbar-v2";
 
 const Navbar = () => {
+    // Todo: Toggle user when logged in
+    const user = false;
     return (
         <nav className="grid grid-cols-3 w-full border-b-2 text-black border-black-200 py-7">
             <div className="flex justify-center">
@@ -33,7 +35,18 @@ const Navbar = () => {
 
             <div className="hidden gap-5 sm:flex sm:justify-center">
                 {/* Account */}
-                <p>Account</p>
+                { user && (
+                    <span className="hover-underline">
+                        <Link href="/account">Account</Link>
+                    </span>
+                )}
+
+                { !user && (
+                    <span className="hover-underline">
+                        <Link href="/register">Register/Login</Link>      
+                    </span>
+                )}
+
                 {/* Cart */}
                 <p>Cart</p>
             </div>
