@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Company = () => {
     return (
-        <div className="flex flex-col gap-x-10" id="company">
+        <div className="flex flex-col gap-x-10 border-2 rounded-lg" id="company">
             <h3 className="font-semibold">Company</h3>
             <ul>
                 <li>

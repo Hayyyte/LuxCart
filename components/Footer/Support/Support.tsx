@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Support = () => {
     return (
-        <div className="flex flex-col gap-x-10" id="support">
+        <div className="flex flex-col gap-x-10 border-2 rounded-lg" id="support">
             <h3 className="flex flex-col font-semibold">How may we help you?</h3>
             <ul>
                 <li>

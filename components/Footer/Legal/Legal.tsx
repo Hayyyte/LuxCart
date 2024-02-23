@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Legal = () => {
     return (
-        <div id="legal">
+        <div id="legal" className="flex flex-col gap-x-10 border-2 rounded-lg">
             <h3 className="font-semibold">Legal</h3>
             <ul>
                 <li>
