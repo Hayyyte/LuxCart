@@ -19,7 +19,7 @@ export default function Home() {
             <Carousel opts={{ align: "start", }} orientation="vertical" className="h-[100vw]" >
               <CarouselContent className="-mt-1 h-[100vw]">
                 {Array.from({ length: 5 }).map((_, index) => (
-                  <CarouselItem key={index} className="pt-1">
+                  <CarouselItem key={index} className="pt-1 transition duration-300 transform hover:-translate-y-2 py-2">
                     <div className="p-1">
                       <Card>
                         <CardContent className="flex aspect-square items-center justify-center p-6 bg-slate-700 hover:bg-slate-400 rounded-xl">
@@ -40,11 +40,11 @@ export default function Home() {
               opts={{
                 align: "start",
               }}
-              className="md:w-[95%] min-w-max"
+              className="md:w-[95%] min-w-max py-5"
             >
               <CarouselContent>
                 {Array.from({ length: 5 }).map((_, index) => (
-                  <CarouselItem key={index} className="basis-1/2 md:basis-[250px] lg:basis-[450px]">
+                  <CarouselItem key={index} className="basis-1/2 md:basis-[250px] lg:basis-[450px] transition duration-300 transform hover:-translate-y-2 py-2">
                     <div className="p-1">
                       <Card>
                         <CardContent className="flex aspect-square items-center justify-center p-6 bg-slate-400 hover:bg-slate-700 rounded-xl">
