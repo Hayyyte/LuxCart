@@ -101,6 +101,19 @@ export default function Home() {
           <Image src="/../front_page/banner2.png" alt="Gifts" layout="fill" objectFit="cover" />
         </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 h-[80vh] w-full my-2 bg-slate-500 rounded-3xl">
+          <div className="m-5 p-5 bg-slate-300 rounded-2xl justify-center align-center  ">
+            <Image src="/../gift_images/clothing.png" alt="Gifts" width={450} height={100} />
+          </div>
+          <div className="m-5 p-5 bg-slate-300 rounded-2xl">
+            <h3 className="text-3xl">Clothing Name</h3>
+            <br />
+            <p className="text-2xl">Lorem meow ipsum dolor sit amet consectetur adipisicing elit. A, quisquam alias beatae obcaecati harum perferendis tenetur deleniti saepe consequuntur iusto voluptatibus maiores aspernatur quaerat repellat iste ducimus vero. Est cum perspiciatis sunt dolores eius veritatis magnam, soluta magni commodi odit ullam quibusdam, ipsa nisi? Inventore dolores minus perferendis voluptate facere.</p>
+            <br />
+            <Button variant="outline">Shop Now</Button>
+          </div>
+        </div>
+
       </section>
     </main>
   )
