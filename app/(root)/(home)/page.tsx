@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
                 {Array.from({ length: 5 }).map((_, index) => (
                   <CarouselItem key={index} className="pt-1 transition duration-300 transform hover:-translate-y-2 py-2">
                     <div className="p-1">
-                      <Card>
+                      <Card className="cursor-pointer">
                         <CardContent className="flex aspect-square items-center justify-center p-6 bg-slate-700 hover:bg-slate-400 rounded-xl">
                           <span className="text-3xl font-semibold">{index + 1}</span>
                         </CardContent>
@@ -43,7 +44,7 @@ export default function Home() {
                 {Array.from({ length: 5 }).map((_, index) => (
                   <CarouselItem key={index} className="basis-[33%] transition duration-300 transform hover:-translate-y-2 py-2">
                     <div className="p-1">
-                      <Card>
+                      <Card className="cursor-pointer">
                         <CardContent className="flex aspect-square items-center justify-center p-6 bg-slate-400 hover:bg-slate-700 rounded-xl">
                           <span className="text-3xl font-semibold">{index + 1}</span>
                         </CardContent>
@@ -65,7 +66,11 @@ export default function Home() {
             <br />
             <p>Explore our latest collection of high-end fashion in our "New Arrivals" section, where luxury meets sophistication. From couture pieces to contemporary essentials, each item is crafted with meticulous attention to detail and impeccable quality. Elevate your wardrobe with statement pieces and everyday essentials designed to showcase the essence of modern luxury. Discover opulent eveningwear and sophisticated streetwear, all curated to elevate your style to new heights of sophistication. Shop now and indulge in sartorial excellence with our exclusive new arrivals.</p>
             <br />
-            <Button variant="outline">Shop Now</Button>
+            <Button variant="outline">
+              <Link href="/new">
+                Shop Now
+              </Link>
+            </Button>
           </div>
           {/* Grid 2 */}
           <div className="m-5 p-5 bg-slate-500 rounded-2xl group">
@@ -78,7 +83,7 @@ export default function Home() {
                 <h3>Clothing Name</h3>
                 <p>Category</p>
               </div>
-              <Button variant="outline">Add to Cart</Button>
+              <Button disabled variant="outline">Add to Cart</Button>
             </div>
           </div>
           {/* Grid 3 */}
@@ -92,7 +97,7 @@ export default function Home() {
                 <h3>Dress Name</h3>
                 <p>Category</p>
               </div>
-              <Button variant="outline">Add to Cart</Button>
+              <Button disabled variant="outline">Add to Cart</Button>
             </div>
           </div>
         </div>
@@ -106,11 +111,15 @@ export default function Home() {
             <Image src="/../gift_images/clothing.png" alt="Gifts" width={450} height={100} />
           </div>
           <div className="m-5 p-5 bg-slate-300 rounded-2xl">
-            <h3 className="text-3xl">Clothing Name</h3>
+            <h3 className="text-3xl">Gifts</h3>
             <br />
             <p className="text-2xl">Lorem meow ipsum dolor sit amet consectetur adipisicing elit. A, quisquam alias beatae obcaecati harum perferendis tenetur deleniti saepe consequuntur iusto voluptatibus maiores aspernatur quaerat repellat iste ducimus vero. Est cum perspiciatis sunt dolores eius veritatis magnam, soluta magni commodi odit ullam quibusdam, ipsa nisi? Inventore dolores minus perferendis voluptate facere.</p>
             <br />
-            <Button variant="outline">Shop Now</Button>
+            <Button variant="outline">
+              <Link href="/gifts">
+                Shop Now
+              </Link>
+            </Button>
           </div>
         </div>
 
