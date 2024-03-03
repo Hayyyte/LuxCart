@@ -34,7 +34,7 @@ const NavbarV2 = () => {
                         </div>
                     </Link>
                 </li>
-                <li className='py-2' onMouseEnter={ () => handleMouseEnter('wip') } onMouseLeave={handleMouseLeave}>
+                <li className='py-2' onMouseEnter={ () => handleMouseEnter('Women') } onMouseLeave={handleMouseLeave}>
                     <Link href="/women">
                         <div className='flex justify-between'>
                             <span className='hover-underline menu-item'>Women</span>
@@ -171,6 +171,50 @@ const NavbarV2 = () => {
                 </p>
             </ul>)}
             
+            {hoveredId == 'Women' && (
+            <ul className='flex flex-col' onMouseEnter={ () => handleMouseEnter('Women') }>
+                <p className='w-full py-2'>
+                    <Link href="/women/bags">
+                        <div className='flex justify-between'>
+                            <span className='hover-underline menu-item'>Bags</span>
+                            <span>&nbsp;</span>
+                        </div>
+                    </Link>
+                </p>
+                <p className='w-full py-2'>
+                    <Link href="/women/beauty">
+                        <div className='flex justify-between'>
+                            <span className='hover-underline menu-item'>Beauty</span>
+                            <span>&nbsp;</span>
+                        </div>
+                    </Link>
+                </p>
+                <p className='w-full py-2'>
+                    <Link href="/women/dresses">
+                        <div className='flex justify-between'>
+                            <span className='hover-underline menu-item'>Dresses</span>
+                            <span>&nbsp;</span>
+                        </div>
+                    </Link>
+                </p>
+                <p className='w-full py-2'>
+                    <Link href="/women/jewelry">
+                        <div className='flex justify-between'>
+                            <span className='hover-underline menu-item'>Jewelry</span>
+                            <span>&nbsp;</span>
+                        </div>
+                    </Link>
+                </p>
+                <p className='w-full py-2'>
+                    <Link href="/women/shoes">
+                        <div className='flex justify-between'>
+                            <span className='hover-underline menu-item'>Shoes</span>
+                            <span>&nbsp;</span>
+                        </div>
+                    </Link>
+                </p>
+            </ul>)}
+
             {hoveredId == 'wip' && (
             <ul className='flex flex-col' onMouseEnter={ () => handleMouseEnter('wip') }>
                 <p className='w-full py-2'>
