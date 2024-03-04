@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lux Cart
 
-## Getting Started
+A high-end ecommerce site done in ReactJS/NextJS. I built the project to learn React/Next and play with some tools used in web development. The app is not complete. I mainly focused on routing pages.
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `React.js`
+- `Next JS`
+- `TypeScript`
+- `CSS`
+- `shadcn/ui`
+- `Vercell`
+- `Supabase`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Here's what you can do in Lux Cart:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Enter Menu**: There is a navigation menu at the top left to access all routes.
 
-## Learn More
+## The Process
 
-To learn more about Next.js, take a look at the following resources:
+### Establishing Page Structure:
+Started by creating the foundational elements of the website, including the header, footer, and overall page layout. This initial step allowed for the development of a consistent template to be applied across all pages of the website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Navbar Implementation:
+Utilized resources from [shadcn/ui](https://ui.shadcn.com/docs/components/sheet) to integrate a navigation bar (navbar) into the website. This navbar served as a central hub for navigating between different sections and pages of the site. Attention was given to incorporating smooth hover animations and ensuring all links were functional and clickable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Mouse Trail Experimentation:
+Initially experimented with the addition of a mouse trail effect for visual enhancement. However, after consideration, it was decided to remove this feature to maintain a cleaner and more streamlined user experience.
 
-## Deploy on Vercel
+### Focused on the Gifts Section:
+Directed significant effort towards developing the gifts section of the website, with the intention of creating a versatile and reusable component that could be seamlessly integrated into other sections as needed. This approach aimed to enhance efficiency in future development endeavors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Creation of Reusable Components:
+Developed a reusable component for converting URLs into descriptive text, which dynamically generated page titles based on the provided URL. This component served to enhance the website's scalability and maintainability by simplifying the process of updating page titles across different sections.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Mobile Responsiveness and Error Handling:
+Implemented measures to ensure the website's compatibility with mobile devices, optimizing the user experience across various screen sizes and resolutions. Additionally, dedicated attention was given to implementing a custom 404 error page to gracefully handle instances of broken or missing links.
+
+### Integration of Data from JSON:
+Incorporated functionality to read and display data from JSON (JavaScript Object Notation) files, enabling dynamic content generation and management. This approach facilitated the seamless integration of external data sources into the website's design and content structure. To scale, a database was needed. This was when `Supabase` was attempted.
+
+## What I Learned
+
+During this project, I've picked up important skills and a better understanding of complex ideas, which improved my logical thinking.
+
+### 
+
+### 📈 Overall Growth:
+
+Each part of this project helped me understand more about building apps, managing complex information, and improving user experience. It was more than just making a tool. It was about solving problems, learning new things, and improving my skills for future work.
+
+## 💭 How can it be improved?
+
+- Followed a methodology like agile or waterfall
+- Plan out project instead of adding tiny features
+- Testing?
